@@ -5,6 +5,9 @@
 # For git editor
 export EDITOR=vim
 
+# for git cli
+set -o vi
+
 # For color prompt
 export PS1="\033[01;35m[\u@\h \W]\$ \e[m"
 
